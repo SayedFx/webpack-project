@@ -1,0 +1,27 @@
+{
+  "name": "webpack-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "start": "webpack serve",
+    "watch": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayedFx/webpack-project.git"
+  },
+  "keywords": [],
+  "author": "Yousef Sayed <sayed.yousaf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SayedFx/webpack-project/issues"
+  },
+  "homepage": "https://github.com/SayedFx/webpack-project#readme",
+  "devDependencies": {
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.6.0"
+  }
+}
