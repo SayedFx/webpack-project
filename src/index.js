@@ -1,3 +1,5 @@
+import "./styles/index.css";
+
 const elvenShieldReciepe = {
   leatherStrips: 2,
   ironIngot: 1,
