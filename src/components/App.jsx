@@ -5,7 +5,7 @@ import swordSvg from "../images/sword.svg";
 
 const App = () => {
   return (
-    <>
+    <div>
       <section className="hero"></section>
 
       <main>
@@ -16,7 +16,7 @@ const App = () => {
         <img src={swordSvg} alt="sword svg" width="250" />
         <Recipes />
       </main>
-    </>
+    </div>
   );
 };
 export default App;

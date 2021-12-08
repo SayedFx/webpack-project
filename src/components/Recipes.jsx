@@ -17,7 +17,7 @@ console.log(elvenGauntletsRecipe);
 const Recipes = (props) => {
   const [recipe, setRecipe] = useState({});
   return (
-    <>
+    <div>
       <h3>Current Recipe:</h3>
       <button onClick={() => setRecipe(elvenShieldReciepe)}>
         Elven Shield Recipe
@@ -33,7 +33,7 @@ const Recipes = (props) => {
           </li>
         ))}
       </ul>
-    </>
+    </div>
   );
 };
 
