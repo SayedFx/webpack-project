@@ -20,6 +20,12 @@ module.exports = {
   module: {
     rules: [
       {
+        test: /\.html$/i,
+        use: {
+          loader: "html-loader",
+        },
+      },
+      {
         test: /\.(png|jpe?g|gif|svg)$/i,
         type: "asset", //inline images less than 8k default
         /*parser:{
